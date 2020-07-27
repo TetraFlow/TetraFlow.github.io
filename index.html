@@ -45,13 +45,13 @@
 </head>
 
 <body class="bg-base-4">
-    <div class="body-wrap">
+    <div class="body-wrap bg-base-4 ">
         <!-- Fixed top -->
         <div class="header">
 
             <!-- Navbar -->
             <nav class="navbar navbar-inverse bg-base-4">
-                <div class="container navbar-container text-center" style="display: flex;
+                <div class="container navbar-container text-center animated rubberBand" style="display: flex;
             align-items: center;
             justify-content: center;">
                     <!-- Brand/Logo -->
@@ -68,15 +68,15 @@
                     <div class="swiper-slide swiper-slide-active" data-swiper-autoplay="8000" style="width: 1903px;">
                         <div class="holder-item holder-item-light has-bg-cover bg-size-cover" style="padding-bottom: 350px; background-image: url(./assets/images/tetraflow/network.jpg); background-position: bottom center;">
                             <span class="mask mask-base-2--style-4"></span>
-                            <div class="container container-lg slice--offset-top d-flex align-items-center">
+                            <div class="container container-lg slice--offset-top d-flex align-items-center animated zoomInDown">
                                 <div class="col px-0">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <h2 class="heading heading-xl strong-600 text-normal line-height-1_2 animated animation-ended" data-animation-in="fadeInDownBig" data-animation-delay="200">
+                                            <h2 class="heading heading-md strong-600 text-normal line-height-1_2">
                                                 Let <span class="c-base-1">TetraFlow</span> help you with your <span id="type_1" class="type-this c-base-2" data-type-this="business, startup, idea, product, system"></span>
                                             </h2>
                                             <p class="lead animated mt-4 animation-ended" data-animation-in="fadeInUpBig" data-animation-delay="200">
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                We provide a wide range of fast and efficient services to help support and jump start your business.
                                             </p>
 
                                             <a href="/index.html" class="btn btn-styled btn-lg btn-white btn-round btn-outline mt-5 animated animation-ended" data-animation-in="fadeInUpBig" data-animation-delay="1000" data-scroll-to="#sct_what_we_do">
@@ -104,42 +104,60 @@
         <section class="slice bg-base-4" id="sct_what_we_do">
             <div class="container container-lg">
                 <div class="row cols-xs-space cols-sm-space cols-md-space">
-                    <div class="col-12 col-lg-4 animate-on-scroll fadeInDown">
+                    <!-- bg-gray-lighter rounded pt-3 pb-3 -->
+                    <div class="col animate-on-scroll fadeIn">
                         <div class="icon-block icon-block--style-1-v5 px-4">
                             <div class="block-icon">
-                                <img src="./assets/images/icons/Tetra/bar.png">
+                                <img src="./assets/images/quality.png">
                             </div>
                             <div class="block-content">
-                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Growing up sales</h3>
+                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Managed IT Services</h3>
                                 <p>
+                                    <!-- class="text-dark" -->
                                     Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-4 animate-on-scroll fadeInDown" data-wow-delay="0.3s">
+                    <div class="col animate-on-scroll fadeIn" data-wow-delay="0.3s">
                         <div class="icon-block icon-block--style-1-v5 px-4">
                             <div class="block-icon">
-                                <img src="./assets/images/icons/Tetra/process.png">
+                                <img src="./assets/images/cloud-computing.png">
                             </div>
                             <div class="block-content">
-                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Business strategy</h3>
+                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Cloud Hosting</h3>
                                 <p>
+                                    <!-- class="text-dark" -->
                                     Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-12 col-lg-4 animate-on-scroll fadeInDown" data-wow-delay="0.6s">
+                    <div class="w-100"></div>
+                    <div class="col animate-on-scroll fadeIn" data-wow-delay="0.6s">
                         <div class="icon-block icon-block--style-1-v5 px-4">
                             <div class="block-icon">
-                                <img src="./assets/images/icons/Tetra/grow.png">
+                                <img src="./assets/images/technical-support.png">
                             </div>
                             <div class="block-content">
-                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Increase profits</h3>
+                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Remote Work Support</h3>
                                 <p>
+                                    <!-- class="text-dark" -->
+                                    Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col animate-on-scroll fadeIn" data-wow-delay="0.9s">
+                        <div class="icon-block icon-block--style-1-v5 px-4">
+                            <div class="block-icon">
+                                <img src="./assets/images/cyber-security.png">
+                            </div>
+                            <div class="block-content">
+                                <h3 class="heading-inverse heading-4 strong-600 text-capitalize">Cyber Security</h3>
+                                <p>
+                                    <!-- class="text-dark" -->
                                     Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
@@ -154,7 +172,7 @@
                     <div class="col-lg-6 order-lg-2 animate-on-scroll fadeIn">
                         <div class="block block-image-holder">
                             <div class="block-image">
-                                <img src="./assets/images/prv/other/devops.png" class="img-fluid">
+                                <img src="./assets/images/infinity.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -165,7 +183,7 @@
                                 About our business
                             </h2>
                             <h2 class="heading heading-1 strong-600 mt-4 w-75">
-                                We reinvent devops strategies and combine it with a group effort.<br>The outcome is a team with one goal and a high quality product that is sure to beat competition
+                                We reinvent devops strategies and combine it with a group effort.<br>The outcome is a multi-functional team with one goal and a high quality product that is sure to beat competition
                             </h2>
 
                             <a href="#" class="btn btn-styled btn-base-1 btn-round mt-5">Learn more</a>
@@ -174,7 +192,7 @@
                 </div>
             </div>
         </section>
-        <section class="slice-lg bg-base-4">
+        <!-- <section class="slice-lg bg-base-4">
             <div class="container-fluid">
                 <div class="swiper-container-coverflow" data-swiper-initial-slide="3" data-swiper-items="5" data-swiper-space-between="0" data-swiper-sm-items="2" data-swiper-sm-space-between="0" data-swiper-xs-items="1" data-swiper-xs-space-between="0">
                     <div class="swiper-wrapper">
@@ -250,7 +268,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="slice-xl pt-5 bg-base-4">
             <div class="container container-lg">
@@ -389,11 +407,11 @@
                     <div class="swiper-slide swiper-slide-active" data-swiper-autoplay="8000" style="width: 1903px;">
                         <div class="holder-item holder-item-light has-bg-cover bg-size-cover" style="padding-bottom: 350px; background-image: url(./assets/images/tetraflow/network.jpg); background-position: top center;">
                             <span class="mask mask-base-2--style-4"></span>
-                            <div class="container container-lg slice--offset-top d-flex align-items-center" style="margin-top: 350px;">
+                            <div class="container container-lg slice--offset-top d-flex align-items-center animate-on-scroll fadeInUp" style="margin-top: 350px;">
                                 <div class="col px-0">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <h2 class="heading heading-xl strong-600 text-normal line-height-1_2 animated animation-ended" data-animation-in="fadeInDownBig" data-animation-delay="200">
+                                            <h2 class="heading heading-xl strong-600 text-normal line-height-1_2">
                                                 Let's create something wonderful together!
                                             </h2>
 
